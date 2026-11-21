@@ -776,17 +776,3 @@ const ElectricBorder = ({
 };
 
 export default ElectricBorder;
-
-
-/* ---- ElectricBorder.css ---- */
-.electric-border {
-  position: relative;
-  isolation: isolate;
-}
-
-.electric-border__canvas {
-  position: absolute;
-  z-index: 1;
-  display: block;
-  pointer-events: none;
-}
